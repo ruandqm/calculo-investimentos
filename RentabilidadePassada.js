@@ -27,3 +27,4 @@ function RentabilidadePassada(PrecoAtual, PrecoAn) {
 }
 
 RentabilidadePassada(14, 9)
+module.exports = { RentabilidadePassada }

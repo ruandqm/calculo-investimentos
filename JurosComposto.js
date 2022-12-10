@@ -57,3 +57,5 @@ function JurosComposto(capital, taxa, tempo) {
 //Os valores devem ser positivos
 
 JurosComposto(1000, 2, 1)
+
+module.exports = { JurosComposto }

@@ -49,3 +49,5 @@ function JurosSinples(capital, taxa, tempo) {
 //Os valores devem ser positivos
 
 JurosSinples(1000, 2, 1)
+
+module.exports = { JurosSinples }

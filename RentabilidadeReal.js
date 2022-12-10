@@ -30,3 +30,4 @@ function RentabilidadeReal(r, i) {
 }
 
 RentabilidadeReal(8, 4)
+module.exports = { RentabilidadeReal }
