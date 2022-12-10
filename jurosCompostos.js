@@ -1,7 +1,7 @@
 const validacao = require('./validar.js')
 
 function jurosSimples(capital, taxa, tempo) {
-    validacao.validar(capital, taxa)
+    validacao.validarJuros(capital, taxa)
     let montante = capital * (1 + (taxa / 100)) ** (tempo * 12)
     console.log('R$ ' + montante.toFixed(2))
 }
